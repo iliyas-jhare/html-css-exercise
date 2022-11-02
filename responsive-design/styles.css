@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-}
-
 .page {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +31,7 @@ body {
     height: 600px;
 }
 
-.signup {
+.sign-up {
     background-color: #d6e9fe;
 }
 
@@ -53,13 +47,28 @@ body {
     background-color: #c8c6fa;
 }
 
+.illustration img {
+    width: 100%;
+    display: block;
+}
+
+.header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.photo {
+    width: 100%;
+    display: block;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 400px) {}
 
 /* Tablet styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-
-    .signup,
+    .sign-up,
     .feature-1,
     .feature-2,
     .feature-3 {
@@ -84,7 +93,7 @@ body {
         height: 400px;
     }
 
-    .signup {
+    .sign-up {
         height: 200px;
         order: 1;
     }
